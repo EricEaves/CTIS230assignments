@@ -4,4 +4,10 @@ color:black;
 
 h1 {  
     color:blue;  
+    background-color: palegoldenrod;
+    width: fit-content;
+}
+
+em {
+    background-color: palegoldenrod;
 }
