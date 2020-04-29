@@ -1,13 +1,17 @@
 body{
 color:black;
+font-size:1.25em;
+font-family:Cambria,Georgia,"Book Antiqua",serif;
 }
 
 h1 {  
     color:blue;  
     background-color: palegoldenrod;
     width: fit-content;
+    font-style:italic;
 }
 
 em {
     background-color: palegoldenrod;
+    font-weight:bolder;
 }
