@@ -12,7 +12,7 @@ h1 {
 }
 
 em {
-    background-color: palegoldenrod;
+    background-color: green;
     font-weight:bolder;
 }
 
@@ -30,4 +30,31 @@ a:hover {
 
 a:active {
     color:yellow;
+}
+
+h1, h2 {
+    color:red;
+    background-color: palegoldenrod;
+    width: fit-content;
+    font-size: 1.5em;
+}
+
+p em {
+    background-color:yellow;
+}
+
+p.intro {
+    font-style: italic;
+}
+
+p.outro {
+    font-weight:bold;
+}
+
+img#fig1 {
+    position:relative;
+}
+
+img#fig2 {
+    position:fixed;
 }
