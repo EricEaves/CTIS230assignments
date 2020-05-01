@@ -58,3 +58,14 @@ img#fig1 {
 img#fig2 {
     position:fixed;
 }
+
+div#list1{
+    width:800px;
+}
+
+div#list1items{
+    border:400px;
+    border-width:500px;/*im unsure why it won't display a border*/
+    border-color:black;
+    width:400px;
+}
