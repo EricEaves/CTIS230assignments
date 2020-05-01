@@ -1,115 +1,124 @@
-body{
-color:black;
-font-size:1.25em;
-font-family:Cambria,Georgia,"Book Antiqua",serif;
-margin-left:2em;
-margin-right:12em;
+body {
+    color: black;
+    font-size: 1.25em;
+    font-family: Cambria, Georgia, "Book Antiqua", serif;
+    margin-left: 2em;
+    margin-right: 12em;
 }
 
-h1 {  
-    color:blue;  
+h1 {
+    color: blue;
     background-color: palegoldenrod;
     width: fit-content;
-    font-style:italic;
+    font-style: italic;
 }
 
 em {
     background-color: green;
-    font-weight:bolder;
+    font-weight: bolder;
 }
 
 a:link {
-    color:blue;
+    color: blue;
 }
 
 a:visited {
-    color:purple;
+    color: purple;
 }
 
 a:hover {
-    color:green;
+    color: green;
 }
 
 a:active {
-    color:yellow;
+    color: yellow;
 }
 
 h1, h2 {
-    color:red;
+    color: red;
     background-color: palegoldenrod;
     width: fit-content;
     font-size: 1.5em;
 }
 
 p em {
-    background-color:yellow;
+    background-color: yellow;
 }
 
 p.intro {
     font-style: italic;
-    
 }
 
 p.outro {
-    font-weight:bold;
-    display:flex;
-    flex-wrap:wrap;
-
+    font-weight: bold;
 }
 
 img#fig1 {
-    position:relative;
+    position: relative;
 }
 
 img#fig2 {
-    position:fixed;
+    position: fixed;
 }
 
 img#fig3 {
-  float:left;
-  margin:1em;
+    float: right;
+    margin: 1em;
 }
 
-div#list1{
-    width:800px;
-    margin:10%;
-    text-align:center;
+div#list1 {
+    width: 800px;
+    margin: 10%;
+    text-align: center;
 }
 
-div#list1items{
-    border:400px;
-    border-width:500px;/*im unsure why it won't display a border*/
-    border-color:black;
-    width:400px;
-    margin:10%;
-    text-align:center;
+div#list1items {
+    border: solid 5px black;
+    width: 400px;
+    margin: 1.5em;
 }
 
-div#list2{
-    width:800px;
-    padding-top:2em;
+div#list2 {
+    width: 800px;
+    padding-top: 2em;
 }
 
-div#list2items{
-    padding-bottom:2em;
-    padding-top:2em;
-    width:400px;
+div#list2items {
+    padding-bottom: 2em;
+    padding-top: 2em;
+    width: 400px;
 }
-div#pg1paragraph{
+
+div#pg1paragraph {
     font-size: 1.1em;
     margin-left: 15%;
     margin-right: 15%;
     border: 2px solid brown;
     padding: 0.5em;
-    text-align:center;
+    text-align: center;
 }
 
-div#list3{
-    width:800px;
-    padding-top:2em;
+div#list3 {
+    width: 800px;
+    padding-top: 2em;
 }
 
-div#list3items{
-    padding-bottom:2em;
-    padding-top:2em;
-    width:400px;
+div#list3items {
+    padding-bottom: 2em;
+    padding-top: 2em;
+    width: 400px;
+}
+
+div.navbar {
+    background-color: orange;
+    font-size: 1.5em;
+    padding-bottom: 0.5em;
+}
+
+div.navbar {
+    display: flex;
+    flex-direction: row;
+    border: 1.5px solid black;
+    height: 30px;
+    justify-content: space-evenly;
+}
