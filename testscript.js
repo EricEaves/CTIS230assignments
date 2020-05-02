@@ -4,6 +4,8 @@ otherItem = document.getElementById("buttontest");
 theButton2 = document.getElementById("thebutton2");
 otherItem2 = document.getElementById("buttontest2");
 textEntry = document.getElementById("myinput");
+theButton3 = document.getElementById("thebutton3");
+otherItem3 = document.getElementById("buttontest3");
 
 
 myItem.addEventListener("click", onClick);//we're telling myItem to "listen" for an event, "click" in this instance, and naming that event onClick
@@ -11,6 +13,7 @@ myItem.addEventListener("mouseout", onMouseOut);
 theButton.addEventListener("click", onButtonClick);
 theButton2.addEventListener("click", onButtonClick2);
 textEntry.addEventListener("change", onChange);
+theButton3.addEventListener("click", onButtonClick3);
 
 function onClick() {
     myItem.style.color = "green"; //we're now telling onClick that when it is clicked to change myItem's color to green
@@ -35,4 +38,8 @@ function onButtonClick2(){
 function onChange(){
     newText = myinput.value;
     otherItem.innerHTML = newText;
+}
+
+function onButtonClick3(){
+    otherItem3.style.fontSize = "3em";
 }
