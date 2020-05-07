@@ -21,6 +21,7 @@ body {
 @media screen and (orientation: landscape) {
     body, ul, h1 {
         font-size: .75em;
+        margin: center;
     }
     
 }
@@ -28,6 +29,7 @@ body {
 @media screen and (orientation: portrait) {
     body, ul, h1 {
         font-size: 2em;
+        margin: center;
     }
     
 }
