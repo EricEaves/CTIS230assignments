@@ -94,6 +94,9 @@ img#fig3 {
     float: right;
     margin: 1em;
 }
+img#muldrotha{
+    position: relative;
+}
 
 div#list1 {
     width: 800px;
