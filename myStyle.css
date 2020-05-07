@@ -25,6 +25,13 @@ body {
     
 }
 
+@media screen and (orientation: portrait) {
+    body, ul, h1 {
+        font-size: 2em;
+    }
+    
+}
+
 h1 {
     color: blue;
     background-color: palegoldenrod;
