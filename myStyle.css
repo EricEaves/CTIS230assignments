@@ -6,7 +6,7 @@ body {
     margin-right: 12em;
 }
 
-@media (max-width: 750px) { /* these rules take effect when the viewport is small */
+@media (max-width: 750px) {
     body {
         margin-left: 0px;
         margin-right: 0px;
@@ -15,9 +15,17 @@ body {
         float: none;
         width: auto;
         margin-right: auto;
-            }
+    }
 }
 
+@media screen and (orientation: portrait) {
+    body {
+        font-size: .75em;
+    }
+    ul {
+        font-size: .75em;
+    }
+}
 
 h1 {
     color: blue;
@@ -75,7 +83,7 @@ img#fig2 {
 }
 
 img#fig3 {
-    position:relative;
+    position: relative;
     float: right;
     margin: 1em;
 }
