@@ -18,11 +18,6 @@ body {
             }
 }
 
-@media screen and (orientation: portrait) {
-    body {
-        background-color: lightcyan;
-    }
-}
 
 h1 {
     color: blue;
