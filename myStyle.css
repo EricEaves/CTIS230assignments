@@ -6,6 +6,24 @@ body {
     margin-right: 12em;
 }
 
+@media (max-width: 750px) { /* these rules take effect when the viewport is small */
+    body {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    ul li.float {
+        float: none;
+        width: auto;
+        margin-right: auto;
+            }
+}
+
+@media screen and (orientation: portrait) {
+    body {
+        background-color: lightcyan;
+    }
+}
+
 h1 {
     color: blue;
     background-color: palegoldenrod;
